@@ -1,3 +1,7 @@
+body {
+    width: 100vh;
+}
+
 .header {
     display: flex;
     position: relative;
@@ -176,6 +180,7 @@ h1 {
 
 .container2 {
     position: relative;
+    transform:translate(666px, 128px);
 }
 
 .Image1.png {
@@ -236,11 +241,6 @@ h1 {
     color: #544837;
 }
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .btn-now {
     background: #FF9900;
     border-radius: 4px;
@@ -258,7 +258,6 @@ section {
 }
 
 .container4 {
-    display: flex;
     position: relative;
     transform:translateY(643px);
 }
@@ -271,7 +270,7 @@ section {
     line-height: 24px;
     /* identical to box height */
     color: #544837;
-    position: relative;
+    position: absolute;
     transform:translateX(145px);
 }
 
@@ -297,6 +296,17 @@ h6 {
 }
 
 .info {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+    margin-top: -28px;
+}
+
+.myspace-info {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -330,6 +340,144 @@ h6 {
     max-width: 486px;
 }
 
-.info{
-    margin-top: 12px;
+.container5 {
+    position: relative;
+    transform:translate(735px, 660px);
+}
+
+.image2 {
+    position: relative;
+    transform:translate(104px, 120px);
+}
+
+.container6 {
+    position: relative;
+    transform:translate(144px, 749px)
+}
+
+.container7 {
+    position: relative;
+    transform:translate(779px, 250px)
+}
+
+.start-text2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #544837;
+    position: absolute;
+}
+
+.head3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E; 
+    position: absolute;
+    transform: translate(0px, 3px);
+}
+
+.myspace-2{
+    position: absolute;
+    transform:translate(0px, 103px);
+    max-width: 486px;
+}
+
+.icon1 {
+    position: absolute;
+    transform:translate(0px, 211px);
+    max-width: 486px;
+}
+
+.icontext {
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+    max-width: 365px;
+    position: relative;
+    transform:translate(65px, -60px);
+}
+
+.icon2 {
+    position: absolute;
+    transform:translate(0px, 293px);
+    max-width: 486px;
+}
+
+.icon3 {
+    position: absolute;
+    transform:translate(0px, 375px);
+    max-width: 486px;
+}
+
+.container8 {
+    position: relative;
+    transform:translate(147px, 825px) 
+}
+
+.head4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E; 
+    position: absolute;
+    transform: translate(0px, 3px);  
+}
+
+.feminismtext {
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+    max-width: 486px;
+    position: absolute;
+    transform:translate(0px, 103px);
+}
+
+.second-accessory {
+    position: absolute;
+    transform: translate(0px, 211px);
+    max-width: 486px;
+}
+
+.second-alterationists {
+    position: absolute;
+    transform: translate(0px, 333px);
+    max-width: 486px;
+}
+
+.second-custom {
+    position: absolute;
+    transform: translate(0px, 441px);
+    max-width: 486px;
+}
+
+.optimism-info {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    color: #544837;
+    position: absolute;
+}
+
+.container9 {
+    position: relative;
+    transform:translate(715px, 825px) 
 }
