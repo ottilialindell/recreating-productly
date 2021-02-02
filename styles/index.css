@@ -1,7 +1,3 @@
-body {
-    width: 100vh;
-}
-
 .header {
     display: flex;
     position: relative;
@@ -67,13 +63,12 @@ a:active {
     box-sizing: border-box;
     border-radius: 4px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 102px;
     height: 46px;
     position: absolute;
     transform: translateX(699px);
-}
-
-.sign-text{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -84,14 +79,25 @@ a:active {
     color: #173A56;
 }
 
+
 .sign-up {
     background: #FF9900;
     border-radius: 4px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 110px;
     height: 46px;
     position: absolute;
     transform:translateX(815px);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
 }
 
 .sign-text2 {
@@ -169,13 +175,16 @@ h1 {
     line-height: 24px;
     /* identical to box height */
     text-decoration-line: underline;
-
     color: #FF9900;
+    position: absolute;
+    transform: translate(0px, 0px);
 }
   
 .Triangle.png{
     width: 20px;
     height: 17px;
+    position: absolute;
+    transform: translate(0px, 0px);
 }
 
 .container2 {
@@ -205,7 +214,7 @@ h1 {
     color: #2F281E;
     width: 539px;
     position: absolute;
-    transform:translate(439px, 110px);
+    transform:translate(310px, 110px);
 }
 
 .card1, .card2, .card3, .card4 {
@@ -254,7 +263,7 @@ h1 {
     /* identical to box height */
     color: #FFFFFF;
     position:absolute;
-    transform: translate(621px, 510px);
+    transform: translate(430px, 510px);
 }
 
 .container4 {
@@ -480,4 +489,104 @@ h6 {
 .container9 {
     position: relative;
     transform:translate(715px, 825px) 
+}
+
+footer {
+    margin-bottom: 83px;
+    display: flex;
+    position: relative;
+    transform:translate(160px, 900px)
+    
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    background-color: rgba(188, 208, 229, 0.496913);
+    height: 1px;
+    width: 1109px;
+}
+
+.footer-logo {
+    display: flex;
+    position: absolute;
+    transform: translate(0px, 102px);
+}
+
+.first-list {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;
+    display: flex;
+    position: absolute;
+    transform: translate(484px, 102px);
+    list-style-type: none;
+}
+
+.first-list li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.second-list {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: row;
+    position: absolute;
+    transform: translate(731px, 102px);
+}
+
+.second-list li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    clear: left;
+}
+
+.btn-phone {
+    width: 325px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    color: #BCD0E5;
+    position: absolute;
+    transform:translate(944px, 150px);
+}
+
+.btn-sign-now {
+    width: 131px;
+    height: 39px;
+    background: #FF9900;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    transform:translate(944px, 219px);
 }
